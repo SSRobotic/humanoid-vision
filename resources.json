@@ -1,0 +1,109 @@
+[
+  {
+    "id": "collections-dobot-ros2-vision",
+    "title": "DOBOT Vision & Manipulation",
+    "categories": [
+      "vision",
+      "manipulation"
+    ],
+    "tags": [
+      "RealSense",
+      "YOLO",
+      "ROS 2",
+      "EG0053-01"
+    ],
+    "description": "RealSense / calibration / recognition examples for the EG0053-01 workstation.",
+    "descriptionTh": "ตัวอย่างกล้อง RealSense, Hand-eye Calibration และ Grasping สำหรับ Workstation EG0053-01",
+    "source": "collection",
+    "owner": "Dobot-Arm",
+    "url": "https://github.com/SSRobotic/dobot-vision",
+    "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+    "verifiedOn": "2026-10-10",
+    "key": "dobot-vision",
+    "collectionPath": "collections/dobot/ros2-vision"
+  },
+  {
+    "id": "IntelRealSense-librealsense",
+    "key": "IntelRealSense/librealsense",
+    "title": "RealSense SDK",
+    "description": "Camera SDK for RealSense depth and sensor streams.",
+    "descriptionTh": "Camera SDK สำหรับกล้อง Depth และข้อมูลเซนเซอร์ RealSense",
+    "categories": [
+      "vision"
+    ],
+    "tags": [
+      "Depth camera",
+      "RealSense",
+      "Sensors"
+    ],
+    "source": "upstream",
+    "owner": "realsenseai",
+    "url": "https://github.com/realsenseai/librealsense",
+    "upstream": "https://github.com/realsenseai/librealsense",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "opencv-opencv",
+    "key": "opencv/opencv",
+    "title": "OpenCV",
+    "description": "Computer-vision algorithms and image-processing tools.",
+    "descriptionTh": "อัลกอริทึม Computer Vision และเครื่องมือประมวลผลภาพ",
+    "categories": [
+      "vision"
+    ],
+    "tags": [
+      "Computer vision",
+      "Calibration",
+      "Images"
+    ],
+    "source": "upstream",
+    "owner": "opencv",
+    "url": "https://github.com/opencv/opencv",
+    "upstream": "https://github.com/opencv/opencv",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isl-org-Open3D",
+    "key": "isl-org/Open3D",
+    "title": "Open3D",
+    "description": "Tools for point clouds, 3D geometry and data processing.",
+    "descriptionTh": "เครื่องมือจัดการ Point Cloud, 3D Geometry และข้อมูลสามมิติ",
+    "categories": [
+      "vision"
+    ],
+    "tags": [
+      "Point clouds",
+      "3D",
+      "Perception"
+    ],
+    "source": "upstream",
+    "owner": "isl-org",
+    "url": "https://github.com/isl-org/Open3D",
+    "upstream": "https://github.com/isl-org/Open3D",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-BICMap",
+    "key": "Open-X-Humanoid/BICMap",
+    "title": "BICMap",
+    "description": "WebGL visualization tools for maps, point clouds and robotics scenes.",
+    "descriptionTh": "เครื่องมือ WebGL สำหรับแสดงแผนที่ Point Cloud และฉากหุ่นยนต์",
+    "categories": [
+      "vision"
+    ],
+    "tags": [
+      "Point clouds",
+      "WebGL",
+      "Maps"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/BICMap",
+    "upstream": "https://github.com/Open-X-Humanoid/BICMap",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  }
+]
