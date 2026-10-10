@@ -23,6 +23,27 @@
     "collectionPath": "collections/dobot/ros2-vision"
   },
   {
+    "id": "Open-X-Humanoid-BICMap",
+    "key": "Open-X-Humanoid/BICMap",
+    "title": "BICMap",
+    "description": "WebGL visualization tools for maps, point clouds and robotics scenes.",
+    "descriptionTh": "เครื่องมือ WebGL สำหรับแสดงแผนที่ Point Cloud และฉากหุ่นยนต์",
+    "categories": [
+      "vision"
+    ],
+    "tags": [
+      "Point clouds",
+      "WebGL",
+      "Maps"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/BICMap",
+    "upstream": "https://github.com/Open-X-Humanoid/BICMap",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
     "id": "IntelRealSense-librealsense",
     "key": "IntelRealSense/librealsense",
     "title": "RealSense SDK",
@@ -40,27 +61,6 @@
     "owner": "realsenseai",
     "url": "https://github.com/realsenseai/librealsense",
     "upstream": "https://github.com/realsenseai/librealsense",
-    "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10"
-  },
-  {
-    "id": "opencv-opencv",
-    "key": "opencv/opencv",
-    "title": "OpenCV",
-    "description": "Computer-vision algorithms and image-processing tools.",
-    "descriptionTh": "อัลกอริทึม Computer Vision และเครื่องมือประมวลผลภาพ",
-    "categories": [
-      "vision"
-    ],
-    "tags": [
-      "Computer vision",
-      "Calibration",
-      "Images"
-    ],
-    "source": "upstream",
-    "owner": "opencv",
-    "url": "https://github.com/opencv/opencv",
-    "upstream": "https://github.com/opencv/opencv",
     "license": "Apache-2.0",
     "verifiedOn": "2026-10-10"
   },
@@ -86,24 +86,24 @@
     "verifiedOn": "2026-10-10"
   },
   {
-    "id": "Open-X-Humanoid-BICMap",
-    "key": "Open-X-Humanoid/BICMap",
-    "title": "BICMap",
-    "description": "WebGL visualization tools for maps, point clouds and robotics scenes.",
-    "descriptionTh": "เครื่องมือ WebGL สำหรับแสดงแผนที่ Point Cloud และฉากหุ่นยนต์",
+    "id": "opencv-opencv",
+    "key": "opencv/opencv",
+    "title": "OpenCV",
+    "description": "Computer-vision algorithms and image-processing tools.",
+    "descriptionTh": "อัลกอริทึม Computer Vision และเครื่องมือประมวลผลภาพ",
     "categories": [
       "vision"
     ],
     "tags": [
-      "Point clouds",
-      "WebGL",
-      "Maps"
+      "Computer vision",
+      "Calibration",
+      "Images"
     ],
     "source": "upstream",
-    "owner": "Open-X-Humanoid",
-    "url": "https://github.com/Open-X-Humanoid/BICMap",
-    "upstream": "https://github.com/Open-X-Humanoid/BICMap",
-    "license": "NOASSERTION",
+    "owner": "opencv",
+    "url": "https://github.com/opencv/opencv",
+    "upstream": "https://github.com/opencv/opencv",
+    "license": "Apache-2.0",
     "verifiedOn": "2026-10-10"
   }
 ]
