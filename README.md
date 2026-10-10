@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">👁️ Vision & 3D Perception</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-5-f28c28?style=flat-square" alt="5 curated resources"></a>
@@ -27,6 +27,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [RealSense SDK](https://github.com/realsenseai/librealsense) | Camera SDK for RealSense depth and sensor streams. | Depth camera, RealSense, Sensors | [realsenseai](https://github.com/realsenseai/librealsense) |
 | [Open3D](https://github.com/isl-org/Open3D) | Tools for point clouds, 3D geometry and data processing. | Point clouds, 3D, Perception | [isl-org](https://github.com/isl-org/Open3D) |
 | [OpenCV](https://github.com/opencv/opencv) | Computer-vision algorithms and image-processing tools. | Computer vision, Calibration, Images | [opencv](https://github.com/opencv/opencv) |
+
+## 📦 Code & models in this repository
+
+**134 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [Dobot-Arm/dobot_ros2_vision](projects/dobot_vision) | 134 | [`27de346b103e`](https://github.com/Dobot-Arm/dobot_ros2_vision/tree/27de346b103eb8ea42fca20e9eefc1ca7f2079cb) | [LICENSE](projects/dobot_vision/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-vision.git
+cd humanoid-vision
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 

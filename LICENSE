@@ -2,8 +2,8 @@ MIT License
 
 Copyright (c) 2026 SSRobotic
 
-Scope: this license covers original editorial descriptions and engineering guides
-created for this resource directory. It does NOT cover the SSRobotics logo, imported collections/ code,
+Scope: this license covers original editorial descriptions, engineering guides and SSRobotics
+example code (examples/, ssrobotics_algorithms/ and tests/). It does NOT cover the SSRobotics logo, imported projects/ or collections/ code,
 third-party code, models, binaries, datasets or external linked resources.
 Their respective source licenses and notices apply.
 

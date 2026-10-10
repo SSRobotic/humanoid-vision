@@ -20,7 +20,15 @@
     "upstream": "https://github.com/Dobot-Arm/dobot_ros2_vision",
     "verifiedOn": "2026-10-10",
     "key": "dobot-vision",
-    "collectionPath": "collections/dobot/ros2-vision"
+    "collectionPath": "collections/dobot/ros2-vision",
+    "localCopies": [
+      {
+        "repository": "humanoid-vision",
+        "url": "https://github.com/SSRobotic/humanoid-vision/tree/main/projects/dobot_vision",
+        "commit": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+        "fileCount": 134
+      }
+    ]
   },
   {
     "id": "Open-X-Humanoid-BICMap",

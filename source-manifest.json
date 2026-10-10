@@ -1,0 +1,21 @@
+{
+  "repository": "humanoid-vision",
+  "url": "https://github.com/SSRobotic/humanoid-vision",
+  "projects": [
+    {
+      "slug": "Dobot-Arm/dobot_ros2_vision",
+      "source_url": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+      "commit": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+      "snapshot": "existing preserved collection",
+      "gitlinks": [],
+      "license": "See retained source notices",
+      "folder": "projects/dobot_vision",
+      "file_count": 134,
+      "bytes": 64581171,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 134,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 134
+}

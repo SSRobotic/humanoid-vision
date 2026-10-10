@@ -1,0 +1,818 @@
+{
+  "slug": "Dobot-Arm/dobot_ros2_vision",
+  "source_url": "https://github.com/Dobot-Arm/dobot_ros2_vision",
+  "commit": "27de346b103eb8ea42fca20e9eefc1ca7f2079cb",
+  "snapshot": "existing preserved collection",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha": "c402f7bbe6591288e783830fa35a988db11ff6aa",
+      "size": 1066,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "7a493db40f792d4d21fc4db2cf61d3384c83446f",
+      "size": 5884,
+      "mode": "100644"
+    },
+    {
+      "path": "README_EN.md",
+      "sha": "d6afcc49d69d2ca84be494ff5097eb05693c834b",
+      "size": 6270,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/CMakeLists.txt",
+      "sha": "39c92f8eeb93a9fe296760851971bf58918d4407",
+      "size": 1132,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/msg/ArucoPose.msg",
+      "sha": "375308a55908058a19d85c92359b213b46bf63f6",
+      "size": 73,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/msg/InternalParameters.msg",
+      "sha": "2d35ce44829bedc3d4d10632d3bc11bf1e134763",
+      "size": 78,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/msg/Result.msg",
+      "sha": "94653367706830a2cf8e40e6c6a3ff502c4e9098",
+      "size": 37,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/msg/YoloPose.msg",
+      "sha": "8aa8f7e177d84758af3e20584b3750d4281fe90d",
+      "size": 29,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/package.xml",
+      "sha": "cf8193e70f36e2d56af08ae6ce0e516114916074",
+      "size": 815,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/srv/GetAngle.srv",
+      "sha": "f67548203de5fa38f7f1cc43ebddeedcc9222d92",
+      "size": 33,
+      "mode": "100644"
+    },
+    {
+      "path": "camera_msgs_v4/srv/GetPose.srv",
+      "sha": "a4321c5497f6e615558af666340e01bae5b48e64",
+      "size": 55,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/__pycache__/alarmController.cpython-310.pyc",
+      "sha": "66433a0c99a82db8d322286fac51a61d3ddf1395",
+      "size": 408350,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/__pycache__/alarmServo.cpython-310.pyc",
+      "sha": "933d6018dfe42e2f77defcc2b04e7fedc7b2eba8",
+      "size": 44992,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/__pycache__/dobot_api.cpython-310.pyc",
+      "sha": "ab9ecacad821e6dcf3bc2282466b226766a78322",
+      "size": 123287,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/alarmController.py",
+      "sha": "aff40052102d4aa95a7feef2e78f436c3565d50d",
+      "size": 752866,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/alarmServo.py",
+      "sha": "1cd221ae02c292be92f9bfe4fc06a66734c5b7a8",
+      "size": 110444,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/aruco_pubsub.py",
+      "sha": "252e77f5227f7836f37be2f597d71b7dca5c21c6",
+      "size": 7728,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/dobot_api.py",
+      "sha": "cb366d7aefb4d2b009f65d7a50631ae4ce6a5550",
+      "size": 135666,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/feedback.py",
+      "sha": "cd56bd501109cddc724a3c1ba0367fb93411e1cc",
+      "size": 6479,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/hand_eye_calibration.py",
+      "sha": "47410110e5ba051972e4600e4b7a06f66dc44f5f",
+      "size": 10611,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/dobot_camera_calibration/ui.py",
+      "sha": "4ab52bdeb2822fdcd60538d8cf862d839fc4c022",
+      "size": 21680,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/launch/aruco_dobot.launch.py",
+      "sha": "734b5dce83cc5305ffaff730dced877b170c61d0",
+      "size": 654,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/package.xml",
+      "sha": "478804b4fe9fd72dbed8c3dbd2c76fc998a01311",
+      "size": 640,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/resource/dobot_camera_calibration",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/setup.cfg",
+      "sha": "660b3a8803eeb6e531929d091f2c5045e0e10ae7",
+      "size": 117,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/setup.py",
+      "sha": "6828deaef00c6aecafe4461e46ed9e36d15871a4",
+      "size": 1059,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_calibration/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/CMakeLists.txt",
+      "sha": "b4c54422b392ea71cf2f312696a091db62731d53",
+      "size": 995,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/launch/dobot_cr3_rviz.launch.py",
+      "sha": "6fc3c902ece2ba3acb0bea5f3841bfe72c51d970",
+      "size": 2461,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/launch/dobot_e6_rviz.launch.py",
+      "sha": "76c5f82b485f9457c2916b208aa8733e651f0427",
+      "size": 2461,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/EG0053-01/Link_c.STL",
+      "sha": "070e1d3cb5a1bb31cb24af59dc3cc90c8a81d9c0",
+      "size": 5021584,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/EG0053-01/Link_x.STL",
+      "sha": "611edab63d0feb2852bd005c76d19b61191e47b0",
+      "size": 878084,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/EG0053-01/base_link.STL",
+      "sha": "7dbbf69c5b2d2b8ef1086701996201745dbab971",
+      "size": 1047184,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/base/Empty_Link.STL",
+      "sha": "6e475e3a925f3a2c667f2c6897f41dd98a502923",
+      "size": 474384,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/base/base_link.STL",
+      "sha": "88772e63f52b39af41de753f1cdda1cb654635ac",
+      "size": 6109184,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link1.STL",
+      "sha": "40a1699cccafb91dd9c3b1c75f2fb233cc2e6433",
+      "size": 250284,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link2.STL",
+      "sha": "78a7fc73fa339e0bb9517dc5fb6aa93b8e5dab93",
+      "size": 596684,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link3.STL",
+      "sha": "9f1beed3ca6d1cfc7de83e49ceb62ad105186ba0",
+      "size": 795284,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link4.STL",
+      "sha": "e6d0db3ab47805237d82b223216f10e7a99315fa",
+      "size": 240584,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link5.STL",
+      "sha": "c9a549c407dc6c9f72b11dad01ea6f590b1c21ea",
+      "size": 244984,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/Link6.STL",
+      "sha": "3c88855c5f003c7a43b6add729625412cc64d8c9",
+      "size": 448884,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/cr3/base_link.STL",
+      "sha": "ccc88bdd0821d12c6c6a9291a135765429e1e470",
+      "size": 2125084,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link1.STL",
+      "sha": "49a98d0944cb2f8d4e99e3007c32d5b50e549a6f",
+      "size": 1448084,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link2.STL",
+      "sha": "53fae4b87cf268b3b7a3e33f435d9732888360ab",
+      "size": 2434584,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link3.STL",
+      "sha": "e4b2cf569b703a35b79ff7932f98258fc4d7f827",
+      "size": 2209784,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link4.STL",
+      "sha": "c9e7dbd9ef4ea765936175c8f3af30e42d0f8d40",
+      "size": 1442684,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link5.STL",
+      "sha": "298a8e073e37604ef59c56a13f76f481a8c42885",
+      "size": 1876484,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/Link6.STL",
+      "sha": "2b4cd166269f530eddb0dca56514e3afb23b42de",
+      "size": 1841884,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/meshes/me6/base_link.STL",
+      "sha": "28610f1874748c41c678ee4e6327f3a989c5b53f",
+      "size": 7153684,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/package.xml",
+      "sha": "a150853bc9b62e1f795e871fc96aa153bdb4049a",
+      "size": 812,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/rviz/urdf.rviz",
+      "sha": "13aaea2d0968d37208a2800a4bb93001df257688",
+      "size": 863,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/urdf/cr3_robot.urdf",
+      "sha": "32ec53f1358f4c00935c23c7e737e84701c70766",
+      "size": 12585,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/urdf/me6_robot (copy).urdf",
+      "sha": "884da5cd4598ae4db4bfa95bf76377d205514704",
+      "size": 12739,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_camera_rviz/urdf/me6_robot.urdf",
+      "sha": "19f3610606abb621bff04ff8193e6821d6111877",
+      "size": 11455,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/dobot_joint_states/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/dobot_joint_states/joint_states.py",
+      "sha": "a2a622cfa8ae5b4b3b651b530e4bd031749725e7",
+      "size": 1206,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/package.xml",
+      "sha": "ae9ac5443aea72eafed384145267f9f8a13858d6",
+      "size": 646,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/resource/dobot_joint_states",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/setup.cfg",
+      "sha": "6cb891c6a72de165be75abb83c2440514a07638a",
+      "size": 105,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/setup.py",
+      "sha": "9b3c5c60087dffa63fe55df89f854944de75abca",
+      "size": 738,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "dobot_joint_states/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/hikvision_manipulator_bringup/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/hikvision_manipulator_bringup/hikvision_camera_bringup.py",
+      "sha": "22bad0ccbcfe6ee40223c08a21add8487e91b5bf",
+      "size": 13574,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/package.xml",
+      "sha": "e3f96721cba0fe08b639132e0e4072010d454904",
+      "size": 650,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/resource/hikvision_manipulator_bringup",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/setup.cfg",
+      "sha": "a5f997db327347fbaece33452dc26d72ce383fab",
+      "size": 127,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/setup.py",
+      "sha": "1c2fb200ecf3339d211fdd2035b2da23a5079a84",
+      "size": 766,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "hikvision_manipulator_bringup/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image1254.png",
+      "sha": "289118af4109cdffc079c9086b91faf7efa1f72f",
+      "size": 132174,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image14321.png",
+      "sha": "a62550dd17d6dde70d7d95ec412667549f2dc031",
+      "size": 71488,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image2544.png",
+      "sha": "b1ecbfe9f65ffe8d1ca75caf0ca4bd019a89f5db",
+      "size": 537736,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image32352.png",
+      "sha": "6ed2b2ca1b933c013a8dc990a016a30d090b5c71",
+      "size": 8728,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image42434.png",
+      "sha": "ec4fce31ed6f99c418b70f80b68ad9c84622ec78",
+      "size": 501951,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image45234.png",
+      "sha": "883b7154adf326891e57d2f2447da6581bfcb59e",
+      "size": 114450,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image45364.png",
+      "sha": "c5496da237ceb6e8300fcb4204854d919746ec6f",
+      "size": 297167,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image5242.png",
+      "sha": "f44e03eaeaafe56d9d9103ed7fe8292b80c17ca7",
+      "size": 222561,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image5245.png",
+      "sha": "cbf87bd1567315c0b590b4a4f04d9fa22d8f29fe",
+      "size": 97449,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image5255.png",
+      "sha": "73a7599cb77197f5b6dceedd288c63974f279782",
+      "size": 89844,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image5287.png",
+      "sha": "fbfe4c95372c8db02cd92dceae76598f6643d52b",
+      "size": 377659,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image5421.png",
+      "sha": "a93ad8fb4561659d68d4e69308717e4634e89609",
+      "size": 113841,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image54335.png",
+      "sha": "8fa39a964941525808741170f69aac649c730c92",
+      "size": 271488,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image554.png",
+      "sha": "95dcc94990d6e6e964ed4dcf1f4ca16836e65066",
+      "size": 530465,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image55985.png",
+      "sha": "ad794af913728cc8fc985068a3fe1059d58569c3",
+      "size": 83419,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image574632.png",
+      "sha": "066381bd51717defef60abea68b5f3406553b16c",
+      "size": 79317,
+      "mode": "100644"
+    },
+    {
+      "path": "image/image574632_EN.png",
+      "sha": "7e66bc3929de9b32af8810909653eb40aef47e42",
+      "size": 78784,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/object_recognition/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/object_recognition/dobot_move.py",
+      "sha": "4218d9223dc9ea21c827909d06aa969a163e94e6",
+      "size": 6378,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/object_recognition/yolo11n-obb.pt",
+      "sha": "314fd1a6eba4999071eabe423c87adf83b6f76fe",
+      "size": 5795654,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/object_recognition/yolo11n.pt",
+      "sha": "45b273b46165267f2d4c90df94468b547f43cf67",
+      "size": 5613764,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/object_recognition/yolo_v11.py",
+      "sha": "efd5f057db4149916de5c57d2fc8438844083b18",
+      "size": 8268,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/package.xml",
+      "sha": "96db70fc7494a98bed1989cdd5b904e4d69b45c1",
+      "size": 634,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/resource/object_recognition",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/setup.cfg",
+      "sha": "016f9484a7e0895a1a43a449960ba0d0d9271cd3",
+      "size": 105,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/setup.py",
+      "sha": "c6cc53183bc32a1df74e9f770bfc14e6b2ce95c6",
+      "size": 772,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "object_recognition/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/online_large_model/Identification.py",
+      "sha": "1c37dd56c12d8dc3326e1e3a806f89597c72aedf",
+      "size": 781,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/online_large_model/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/package.xml",
+      "sha": "6c8b996cd64d2b726a035e55609bd89dccd69895",
+      "size": 634,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/resource/online_large_model",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/setup.cfg",
+      "sha": "f45772c092f138559d49136c80cf9e72ef4a4c38",
+      "size": 105,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/setup.py",
+      "sha": "769bd95a0bea1122e3738f3cbc5cf57562fc9bc2",
+      "size": 656,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "online_large_model/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/package.xml",
+      "sha": "470e37ae6f28f49febd0e45e8c2dddfb2b0089bd",
+      "size": 650,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/realsense_manipulator_bringup/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/realsense_manipulator_bringup/realsense_camera_bringup.py",
+      "sha": "109b9ace3543509ea22e1644cd7ab00b97e2a132",
+      "size": 6085,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/realsense_manipulator_bringup/realsense_pubsub_listener.py",
+      "sha": "ef4d3d08b8bf75f1b28b9a6190b634a0f0e9ae38",
+      "size": 1207,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/realsense_manipulator_bringup/realsense_pubsub_talker.py",
+      "sha": "ba1c25aad49eb6141b9c3999121c8d898ca3b6a0",
+      "size": 2080,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/resource/realsense_manipulator_bringup",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/setup.cfg",
+      "sha": "2824e4e6fbd9f89120979d2e30c67226aadbb485",
+      "size": 127,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/setup.py",
+      "sha": "a2f35e9c0ba89c75fe771f23060990292b50d298",
+      "size": 965,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/test/test_copyright.py",
+      "sha": "97a39196e84db97954341162a6d2e7f771d938c0",
+      "size": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/test/test_flake8.py",
+      "sha": "27ee1078ff077cc3a0fec75b7d023101a68164d1",
+      "size": 884,
+      "mode": "100644"
+    },
+    {
+      "path": "realsense_manipulator_bringup/test/test_pep257.py",
+      "sha": "b234a3840f4c5bd38f043638c8622b8f240e1185",
+      "size": 803,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/aruco_p.yaml",
+      "sha": "1ad2d127c11ace895cf3e7d4a13bb184bf28bb0c",
+      "size": 18972,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/dobot_p.yaml",
+      "sha": "5c34d1bc87ce842658cbf4cfc3207ca6cf5eb8bd",
+      "size": 15993,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/handeye_calib/aruco_p.yaml",
+      "sha": "1ad2d127c11ace895cf3e7d4a13bb184bf28bb0c",
+      "size": 18972,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/handeye_calib/dobot_p.yaml",
+      "sha": "5c34d1bc87ce842658cbf4cfc3207ca6cf5eb8bd",
+      "size": 15993,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/handeye_calib/hand_on_eye_calib.yaml",
+      "sha": "8d4ee18063e75244b07779d6a366f3cced88364b",
+      "size": 149,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/handeye_calib/hand_to_eye_calib.yaml",
+      "sha": "a783db43b2b52da2b14925f2bca80c80f3094b4d",
+      "size": 225,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/handeye_calib/js.py",
+      "sha": "57956a5e0342aed4d01c67febb6e650b846399fd",
+      "size": 7949,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/yolo/best.pt",
+      "sha": "7117e9c43ce85a43fc34aa36398556f5fbfde75e",
+      "size": 5484250,
+      "mode": "100644"
+    },
+    {
+      "path": "vision_resource_7b9c/yolo/yolo11n.pt",
+      "sha": "45b273b46165267f2d4c90df94468b547f43cf67",
+      "size": 5613764,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "See retained source notices",
+  "folder": "projects/dobot_vision",
+  "file_count": 134,
+  "bytes": 64581171,
+  "lfs_pointers": []
+}

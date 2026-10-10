@@ -1,0 +1,2 @@
+# MyMessage.msg
+Result[] data

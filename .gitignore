@@ -1,0 +1,6 @@
+
+# Local example/runtime outputs
+__pycache__/
+*.pyc
+.venv/
+logs/
